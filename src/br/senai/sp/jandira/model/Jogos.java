@@ -5,7 +5,7 @@ public class Jogos {
 	private String tituloJogo;
 	private Double ValorJogo;
 	private String observacao;
-
+	private ConsolesEnum console;
 	//titulo do jogo
 	public String getTituloJogo() {
 		return tituloJogo;
@@ -25,6 +25,12 @@ public class Jogos {
 	}
 	public void setObservacao(String observacao) {
 		this.observacao = observacao;
+	}
+	public ConsolesEnum getConsole() {
+		return console;
+	}
+	public void setConsole(ConsolesEnum console) {
+		this.console = console;
 	}
 	
 
